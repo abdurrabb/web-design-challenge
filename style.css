@@ -1,8 +1,8 @@
 
 h1{
     margin-bottom:;
-    font-family:;
-    font-size:;
+    font-family: serif;    
+    font-size: 32px;
     color:;
     text-align:;
             
@@ -26,11 +26,11 @@ h3{
 }
 
 p{
-    margin-bottom:;
-    font-family:;
-    font-size:;
-    color:;
-    text-align:;
+    margin: bottom 10px;;
+    font-family: Helvetica, sans-serif;
+    font-size:24px;
+    color: rgb(97, 97, 97);
+    text-align:left;
 }
 
 li{
@@ -60,8 +60,12 @@ img{
 .box-1{
     top: ;
     left: ;
-    padding: ;
-    margin: ;
+    font-family: Helvetica, sans-serif;
+    font: size 32px;;
+    color: whitesmoke;
+    text-align:center;
+    border-radius: 15%;
+    padding: 10px;
 }
 
 .box-2{
@@ -93,14 +97,27 @@ img{
 }
 
 .header{
-    height: 200px;
-    padding-top: 20px;
-    background: #cdcdcd;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background: #f8f9fa;
 }
 
-/* .header h1 {
-    padding: 60px;
-    margin: 0;
-    color: #000;
+.navbar li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.body2 {
+    background: rgba(197, 197, 197, 0.753);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .navbar link {
+    color: rgb(73, 109, 228);
+    font-size: 32px;
     text-align: center;
-  } */
+    padding: 10px;
+    text-decoration: none;
+}
