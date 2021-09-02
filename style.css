@@ -1,0 +1,93 @@
+
+h1{
+    margin-bottom:;
+    font-family:;
+    font-size:;
+    color:;
+    text-align:;
+            
+}
+        
+h2{
+    margin-bottom:;
+    font-family:;
+    font-size:;
+    color:;
+    text-align:;
+            
+}
+        
+h3{
+    margin-bottom:;
+    font-family:;
+    font-size:;
+    color:;
+    text-align:;
+}
+
+p{
+    margin-bottom:;
+    font-family:;
+    font-size:;
+    color:;
+    text-align:;
+}
+
+li{
+    margin-bottom:;
+    font-family:;
+    font-size:;
+    color:;
+    text-align:;
+}
+        
+img{  
+    box-shadow:;
+    display: ;
+    margin-left: ;
+    margin-right: ;
+    width: ;
+}
+/* header stying */
+.box-set{
+    position: ;
+    width: px;
+    height: px;
+    background: ;
+    border: ;
+}
+
+.box-1{
+    top: ;
+    left: ;
+    padding: ;
+    margin: ;
+}
+
+.box-2{
+    top: ;
+    right: ;
+    padding: ;
+    margin: ;
+}
+.box-3{
+    top: ;
+    bottom: ;
+    padding: ;
+    margin: ;
+}
+
+.sanserif{
+    font-family: Helvetica, sans-serif;
+}
+
+section{
+    background-color: #f4f4f4
+;}
+
+.container{
+
+}
+.homebutton{
+    background: rgb(73, 109, 228);
+}
