@@ -81,13 +81,26 @@ img{
     font-family: Helvetica, sans-serif;
 }
 
-section{
-    background-color: #f4f4f4
-;}
-
-.container{
-
-}
 .homebutton{
     background: rgb(73, 109, 228);
+    font-family: Helvetica, sans-serif;
+    font: size 32px;;
+    color: whitesmoke;
+    text-align:center;
+    border-radius: 15%;
+    padding: 10px;
+
 }
+
+.header{
+    height: 200px;
+    padding-top: 20px;
+    background: #cdcdcd;
+}
+
+/* .header h1 {
+    padding: 60px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+  } */
