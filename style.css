@@ -1,89 +1,36 @@
-
 h1{
-    margin-bottom:;
+    margin: bottom 10px;;
     font-family: serif;    
-    font-size: 32px;
-    color:;
-    text-align:;
-            
-}
+    font-size: 28px;
+    font-weight: bolder;
+    color:rgb(51, 73, 136);
+    text-align:left;         
+};
         
-h2{
-    margin-bottom:;
-    font-family:;
-    font-size:;
-    color:;
-    text-align:;
-            
-}
-        
-h3{
-    margin-bottom:;
-    font-family:;
-    font-size:;
-    color:;
-    text-align:;
-}
-
 p{
     margin: bottom 10px;;
     font-family: Helvetica, sans-serif;
     font-size:24px;
     color: rgb(97, 97, 97);
     text-align:left;
-}
-
-li{
-    margin-bottom:;
-    font-family:;
-    font-size:;
-    color:;
-    text-align:;
-}
-        
-img{  
-    box-shadow:;
-    display: ;
-    margin-left: ;
-    margin-right: ;
-    width: ;
-}
-/* header stying */
-.box-set{
-    position: ;
-    width: px;
-    height: px;
-    background: ;
-    border: ;
-}
+};
 
 .box-1{
-    top: ;
-    left: ;
     font-family: Helvetica, sans-serif;
     font: size 32px;;
     color: whitesmoke;
     text-align:center;
     border-radius: 15%;
     padding: 10px;
-}
-
-.box-2{
-    top: ;
-    right: ;
-    padding: ;
-    margin: ;
-}
-.box-3{
-    top: ;
-    bottom: ;
-    padding: ;
-    margin: ;
-}
+};
 
 .sanserif{
     font-family: Helvetica, sans-serif;
-}
+};
+
+.title{
+    font-family: Helvetica, sans-serif;
+};
 
 .homebutton{
     background: rgb(73, 109, 228);
@@ -93,31 +40,36 @@ img{
     text-align:center;
     border-radius: 15%;
     padding: 10px;
-
-}
+};
 
 .header{
     height: 100px;
     padding-top: 15px;
     padding-bottom: 10px;
     background: #f8f9fa;
-}
+};
 
 .navbar li a {
     color: whitesmoke;
     text-decoration: none;
-}
+};
 
 .body2 {
     background: rgba(197, 197, 197, 0.753);
     margin: 20px;
     padding: 20px;
-  }
+};
 
-  .navbar link {
+  .navbar-link {
     color: rgb(73, 109, 228);
     font-size: 32px;
     text-align: center;
     padding: 10px;
+    padding-bottom: 20px;
     text-decoration: none;
-}
+};
+
+.buffer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+};
