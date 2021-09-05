@@ -18,7 +18,7 @@
 <body>
 
     <!-- Navbar & Collapsed menu here -->
-    <div class="container-fluid">
+  <div class="container-fluid">
         <!-- Navbar here -->
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand homebutton" href="index.html">
@@ -62,25 +62,80 @@
             </div>
           </nav>
           <br>
-    </div>
+  </div>
 
-    <!-- Summary Card here -->
-    <div class="container">
-      <div class="row ">  
-        <div class="col">
-            <div class="card body" style="width: 24rem;">
-                <div class="card-body">
-                  <h5 class="card-title h1">Project Summary</h5>
-                  <p class="card-text">What is the weather like as we approach the equator? "It gets hotter..." you may think. In reality, the answer is more complex. This project analyzes how weather changes as we move closer to the equater. To accomplish this analysis, we utilized data from the OpenWeatherMap API to assemble a data set of over 500 randomly-selected cities.<br><br>
+  <!-- Summary & Side panel here -->
+  <div class="container-fluid">
+  <div class="row">  
+        
+        <!-- Summary Card here -->
+        <div class="col-lg">
+          <div class="card bg-light mb-3" style="max-width: 48rem;">          
+            <div class ="card-header h1">Project Summary</div>
+            <div class="card-body">
+              <h5 class="card-title">Weather vs. Latitude</h5>
+              <p class="card-text">What happens to the weather as we approach the equator? "It gets hotter..." you may think. In reality, the answer is more complex. This project analyzes how weather changes as we move closer to the equater. To accomplish this analysis, we utilized data from the OpenWeatherMap API to assemble a data set of over 500 randomly-selected cities.<br><br>
                     After assembling the data set, we visualized various aspects of the weather versus latitude using Matplotlib. Factors included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualization is created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-                  <a href="plots.html" class="btn btn-primary">Visuals</a>
-                  <a href="https://openweathermap.org/api" class="btn btn-secondary">OpenWeatherMap</a>
+                  <a href="https://openweathermap.org/api" class="btn btn-secondary">Weather</a>
+                  <a href="data.html" class="btn btn-secondary">Data Set</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Side Viz Panel here -->
+
+
+        <div class="col-md">
+          <div class="card bg-light mb-3" style="max-width: 24rem;">
+            <div class="card-header h2">Plots</div>
+            <div class="card-body">
+              
+              <!-- Card deck here -->
+              <div class="card-deck">
+                
+                <!-- Fig1 Card item -->
+                <div class="col-sm">
+                  <h6 class="card-title">Latitude vs. Temperature</h6>
+                  <img src="./Resources/assets/images/Weather_Fig1.jpg" class="img-fluid" style="width:100px;height: 100px;" alt="Latitude vs. Temperature" >
+                  <div class="card-body">
+                  </div>
+                </div>
+                <!-- Fig2 Card item -->
+                <!-- <div class="col-sm">
+                    <h6 class="card-title">Latitude vs. Humidity</h6>
+                    <img src="./Resources/assets/images/Weather_Fig2.jpg" class="img-fluid" style="width:100px;height: 100px;"  alt="Latitude vs. Humidity">
+                    <a href="./plots.html"></a>
+                  <div class="card-body">
+                  </div>
+                </div> -->
+                  
+                <!-- Fig3 Card item -->
+                <!-- <div class="col-sm">
+                  <h6 class="card-title">Latitude vs. Cloudiness</h6>
+                  <img src="./Resources/assets/images/Weather_Fig3.jpg" class="img-fluid" style="width:100px;height: 100px;"  alt="Latitude vs. Cloudiness">
+                  <a href="./plots.html"></a>
+                  <div class="card-body">
+                  </div>
+                </div> -->
+                  
+                <!-- Fig4 Card item -->
+                <!-- <div class="col-sm">
+                  <h6 class="card-title">Latitude vs. Windspeed</h6>
+                  <img src="./Resources/assets/images/Weather_Fig4.jpg" class="img-fluid" style="width:82px;height:82px;"  alt="Latitude vs. Windspeed">
+                  <a href="./plots.html"></a>
+                  <div class="card-body">
+                  </div>
                 </div>
               </div>
-        </div>
+            
+              </div>
+
+              </div>
+            </div> -->
       </div>
-    </div>
-    <br>
+    </div>  
+    
+  <br>
     <!-- Side Panel of Visualizations Carousel here -->
     
 
