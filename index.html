@@ -17,59 +17,73 @@
 <!-- Body here -->
 <body>
 
-    <!-- Navbar & Collapsed menu here -->
+  <!-- Navbar items here -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-        <!-- Navbar here -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand homebutton" href="index.html">
-                <img src="https://img.icons8.com/ios/32/000000/downpour.png" alt="icons8glyph" width="32" height="32" 
-                class= "d-inline-block align-top"/> Weather v. Latitude</a>
-            <button class="navbar-toggler" 
-                    type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navbarSupportedContent" 
-                    aria-controls="navbarSupportedContent" 
-                    aria-expanded="false" 
-                    aria-current="page" 
-                    aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Collapse menu here -->        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto text-right">
-                
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
-                </a>
-                <!-- Collapse Plots menu here -->        
-                <div class="dropdown-menu" aria-labeledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Plot 1</a>
-                    <a class="dropdown-item" href="#">Plot 2</a>
-                    <a class="dropdown-item" href="#">Plot 3</a>
-                    <a class="dropdown-item" href="#">Plot 4</a>
-                </div>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="comparison.html">Comparisons</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="data.html">Data</a>
-                </li>
-              
-            </ul>
+    
+  <!-- Navbar Home button here -->
+  <a class="navbar-brand homebutton" href="index.html">
+  <img src="https://img.icons8.com/ios/32/000000/downpour.png" alt="icons8glyph" width="32" height="32" 
+    class= "d-inline-block align-top"/> Home</a>
+    <button class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-current="page" 
+      aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+  <!-- Close -->
+
+      <!-- Format for navbar items here -->        
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto text-right">
+          
+          <!-- Dropdown Plots menu item in navbar here -->      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" 
+            href="#" 
+            id="navbarDropdown" 
+            role="button" 
+            data-bs-toggle="dropdown" 
+            aria-haspopup="true" 
+            aria-expanded="false">Plots</a>
+
+            <!-- Plots dropdown menu items here -->        
+            <div class="dropdown-menu" aria-labeledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Temperature</a>
+              <a class="dropdown-item" href="#">Humidity</a>
+              <a class="dropdown-item" href="#">Cloudiness</a>
+              <a class="dropdown-item" href="#">Windspeed</a>
             </div>
-          </nav>
-          <br>
+          </li>
+          <!-- Close dropdown Plots items -->
+                
+          <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparisons</a>
+          </li>
+                
+          <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+          </li>
+              
+        </ul>
+      </div>
+      <!-- Close -->
+
+    </nav>
+    <br>
   </div>
+  <!-- Close -->
 
   <!-- Summary & Side panel here -->
-  <div class="container-fluid">
+  <div class="container-fluid margin">
   <div class="row">  
         
-        <!-- Summary Card here -->
-        <div class="col-lg">
+    <!-- Summary Card here -->
+    <div class="col-sm">
           <div class="card bg-light mb-3" style="max-width: 48rem;">          
             <div class ="card-header h1">Project Summary</div>
             <div class="card-body">
@@ -80,59 +94,75 @@
                   <a href="data.html" class="btn btn-secondary">Data Set</a>
             </div>
           </div>
-        </div>
+    </div>
         
-        <!-- Side Viz Panel here -->
-
-
-        <div class="col-md">
-          <div class="card bg-light mb-3" style="max-width: 24rem;">
-            <div class="card-header h2">Plots</div>
-            <div class="card-body">
+      <!-- Side Viz Panel here -->
+      <div class="col-sm">
+        <div class="card bg-light mb-3" style="max-width: 24rem;">
+          <div class="card-header h2">Plots</div>
               
-              <!-- Card deck here -->
-              <div class="card-deck">
-                
+            <!-- Card deck here -->
+            <div class="card-body">
+            <div class="card-deck">
+              
+              <!-- Fig1 & Fig2 row here -->
+              <div class="row">
+                                 
                 <!-- Fig1 Card item -->
                 <div class="col-sm">
-                  <h6 class="card-title">Latitude vs. Temperature</h6>
-                  <img src="./Resources/assets/images/Weather_Fig1.jpg" class="img-fluid" style="width:100px;height: 100px;" alt="Latitude vs. Temperature" >
-                  <div class="card-body">
-                  </div>
+                    <h6 class="card-title">Temperature</h6>
+                    <a href="./plots.html">
+                    <img src="./Resources/assets/images/Weather_Fig1.jpg" 
+                    class="img-fluid" style="width:150px;height: 150px;" alt="Latitude vs. Temperature" >
+                    </a>
+                    <div class="card-body"></div>
                 </div>
                 <!-- Fig2 Card item -->
-                <!-- <div class="col-sm">
-                    <h6 class="card-title">Latitude vs. Humidity</h6>
-                    <img src="./Resources/assets/images/Weather_Fig2.jpg" class="img-fluid" style="width:100px;height: 100px;"  alt="Latitude vs. Humidity">
-                    <a href="./plots.html"></a>
-                  <div class="card-body">
-                  </div>
-                </div> -->
-                  
+                <div class="col-sm">
+                    <h6 class="card-title">Humidity</h6>
+                    <a href="./plots.html">
+                    <img src="./Resources/assets/images/Weather_Fig2.jpg" 
+                    class="img-fluid" style="width:150px;height: 150px;"  alt="Latitude vs. Humidity">
+                    </a>
+                    <div class="card-body"></div>
+                </div>
+              </div>     
+              
+              <!-- Fig3 & Fig4 row here -->
+              <div class="row">
+
                 <!-- Fig3 Card item -->
-                <!-- <div class="col-sm">
-                  <h6 class="card-title">Latitude vs. Cloudiness</h6>
-                  <img src="./Resources/assets/images/Weather_Fig3.jpg" class="img-fluid" style="width:100px;height: 100px;"  alt="Latitude vs. Cloudiness">
-                  <a href="./plots.html"></a>
-                  <div class="card-body">
-                  </div>
-                </div> -->
+                <div class="col-sm">
+                  <h6 class="card-title">Cloudiness</h6>
+                  <a href="./plots.html">
+                  <img src="./Resources/assets/images/Weather_Fig3.jpg" 
+                  class="img-fluid" style="width:150px;height: 150px;"  alt="Latitude vs. Cloudiness">
+                  </a>
+                  <div class="card-body"></div>
+                </div>
                   
                 <!-- Fig4 Card item -->
-                <!-- <div class="col-sm">
-                  <h6 class="card-title">Latitude vs. Windspeed</h6>
-                  <img src="./Resources/assets/images/Weather_Fig4.jpg" class="img-fluid" style="width:82px;height:82px;"  alt="Latitude vs. Windspeed">
-                  <a href="./plots.html"></a>
-                  <div class="card-body">
-                  </div>
+                <div class="col-sm">
+                  <h6 class="card-title">Windspeed</h6>
+                  <a href="./plots.html">
+                  <img src="./Resources/assets/images/Weather_Fig4.jpg" 
+                  class="img-fluid" style="width:150px;height: 150px;"  alt="Latitude vs. Windspeed">
+                  </a>
+                  <div class="card-body"></div>
                 </div>
+              
               </div>
+              <!-- Close Fig3 & Fig4 row -->
             
-              </div>
+            </div>
+            <!-- Close Card Deck -->
+            
+          </div>
 
-              </div>
-            </div> -->
+        </div>
       </div>
+    
+    </div>
     </div>  
     
   <br>

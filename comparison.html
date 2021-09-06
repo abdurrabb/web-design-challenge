@@ -16,43 +16,62 @@
 <!-- Body here -->
 <body>
 
-    <!-- Navbar & Collapsed menu here -->
+<!-- Navbar items here -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <!-- Navbar here -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand homebutton" href="index.html">
-                <img src="https://img.icons8.com/ios/32/000000/downpour.png" alt="icons8glyph" width="32" height="32" 
-                class= "d-inline-block align-top"/> City Weather</a>
-            <button class="navbar-toggler" 
-                    type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navbarSupportedContent" 
-                    aria-controls="navbarSupportedContent" 
-                    aria-expanded="false" 
-                    aria-current="page" 
-                    aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Collapse menu here -->        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto text-right">
+      
+    <!-- Navbar Home button here -->
+    <a class="navbar-brand homebutton" href="index.html">
+    <img src="https://img.icons8.com/ios/32/000000/downpour.png" alt="icons8glyph" width="32" height="32" 
+      class= "d-inline-block align-top"/> Home</a>
+      <button class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-current="page" 
+        aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+  
+        <!-- Format for navbar items here -->        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto text-right">
+            
+            <!-- Dropdown Plots menu item in navbar here -->      
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" 
+              href="#" 
+              id="navbarDropdown" 
+              role="button" 
+              data-bs-toggle="dropdown" 
+              aria-haspopup="true" 
+              aria-expanded="false">Plots</a>
+  
+              <!-- Plots dropdown menu items here -->        
+              <div class="dropdown-menu" aria-labeledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Temperature</a>
+                <a class="dropdown-item" href="#">Humidity</a>
+                <a class="dropdown-item" href="#">Cloudiness</a>
+                <a class="dropdown-item" href="#">Windspeed</a>
+              </div>
+            </li>
+            <!-- Close dropdown Plots items -->
+                  
+            <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparisons</a>
+            </li>
+                  
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
                 
-                <li class="nav-item">
-                  <a class="nav-link" href="plots.html">Plots</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="comparison.html">Comparisons</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="data.html">Data</a>
-                </li>
-              
-            </ul>
-            </div>
-          </nav>
-    </div>
+          </ul>
+        </div>
+  
+</nav>
+<br>
 
     <!-- Grid Card here -->
     <div class="container">
@@ -66,19 +85,7 @@
             </div>
         </div>
         <div class="col">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                </div>
-              </div>
+            
         </div>
     </div>
 
