@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head here -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <!-- Bring in our bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!-- Body here -->
+<body>
+
+<!-- Navbar items here -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      
+    <!-- Navbar Home button here -->
+    <a class="navbar-brand homebutton" href="index.html">
+    <img src="https://img.icons8.com/ios/32/000000/downpour.png" alt="icons8glyph" width="32" height="32" 
+      class= "d-inline-block align-top"/> Home</a>
+      <button class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-current="page" 
+        aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+  
+        <!-- Format for navbar items here -->        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto text-right">
+            
+            <!-- Dropdown Plots menu item in navbar here -->      
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" 
+              href="#" 
+              id="navbarDropdown" 
+              role="button" 
+              data-bs-toggle="dropdown" 
+              aria-haspopup="true" 
+              aria-expanded="false">Plots</a>
+  
+              <!-- Plots dropdown menu items here -->        
+              <div class="dropdown-menu" aria-labeledby="navbarDropdown">
+                <a class="dropdown-item" href="./Fig1_Temp.html">Temperature</a>
+                <a class="dropdown-item" href="./Fig2_Humid.html">Humidity</a>
+                <a class="dropdown-item" href="./Fig3_Cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="./Fig4_Wind.html">Windspeed</a>
+              </div>
+            </li>
+            <!-- Close dropdown Plots items -->
+                  
+            <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparisons</a>
+            </li>
+                  
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+                
+          </ul>
+        </div>
+  
+</nav>
+<br>
+
+    <!-- Grid Card here -->
+    <div class="container-fluid">
+      <div class="col">
+          <div class="card body2">
+          
+          <!-- Card deck & body here -->
+          <div class="card-body card-deck">
+              
+              <!-- Fig1 & Fig2 row here -->
+              <div class="row">
+                                 
+                <!-- Fig1 Card item -->
+                <div class="col-md">
+                    <h4 class="card-title"><img src="https://img.icons8.com/ios-glyphs/35/000000/moisture.png"/> Latitude vs. Humidity</h4>
+                    <img src="./Resources/assets/images/Weather_Fig2.jpg"
+                    class="img-fluid" style="width:500px;height: 500px;" alt="Humidity vs. Latitude" >
+                    </a>
+                    <img src="./Resources/assets/images/Weather_Fig2q.jpg" 
+                    class="img-fluid" style="width:550px;height: 350px;" alt="Humidity vs. Latitude" >
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Analysis</h5>
+                      <p class="card-text">This scatter plot is a verticle slice of Planet Earth. The X-axix marks the amount water vapor in the air of cities around the world. Humidity is distributed across latitudes and weighted toward 70%. Cities nearest the equator (10 degrees to -10 degrees) have a less even distribution of humidity, weighted more strongly toward 70-80% humidity. Additional data reveals several outliers cities with lower humidity percents around 6-16.
+                      </p>
+                    </div>
+                </div>
+              </div> 
+          </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Figures row here -->
+<div class = "container-fluid">
+  <div class = "card-body col">
+    <div class = "row"> 
+  
+      <!-- Fig1 Card item -->
+      <div class="col-sm">
+          <h6 class="card-title">Temperature</h6>
+          <a href="./Fig1_Temp.html">
+          <img src="./Resources/assets/images/Weather_Fig1.jpg" 
+            class="img-fluid" style="width:150px;height: 150px;" alt="Latitude vs. Temperature" >
+          </a>
+          <div class="card-body"></div>
+      </div>  
+        
+      <!-- Fig3 Card item -->
+      <div class="col-md">
+        <h6 class="card-title">Cloudiness</h6>
+        <a href="./Fig3_Cloud.html">
+        <img src="./Resources/assets/images/Weather_Fig3.jpg" 
+          class="img-fluid" style="width:150px;height: 150px;"  alt="Latitude vs. Cloudiness">
+        </a>
+        <div class="card-body"></div>
+      </div>
+              
+      <!-- Fig4 Card item -->
+      <div class="col-md">
+        <h6 class="card-title">Windspeed</h6>
+        <a href="./Fig4_Wind.html">
+        <img src="./Resources/assets/images/Weather_Fig4.jpg" 
+          class="img-fluid" style="width:150px;height: 150px;"  alt="Latitude vs. Windspeed">
+        </a>
+        <div class="card-body"></div>
+      </div>
+      
+    <!-- Hemispheres Card item -->
+    <div class="col-md">
+      <h6 class="card-title">Hemispheres</h6>
+      <a href="./Plots.html">
+      <img src="./Resources/assets/images/Weather_Fig5n.jpg" 
+        class="img-fluid" style="width:150px;height: 150px;"  alt="Hemispheres">
+      </a>
+      <div class="card-body"></div>
+    </div>
+
+
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
+ 

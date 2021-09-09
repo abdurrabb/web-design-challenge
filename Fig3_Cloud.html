@@ -18,7 +18,7 @@
 
 <!-- Navbar items here -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
+    <div class="container-fluid">
       
     <!-- Navbar Home button here -->
     <a class="navbar-brand homebutton" href="index.html">
@@ -55,7 +55,6 @@
                 <a class="dropdown-item" href="./Fig2_Humid.html">Humidity</a>
                 <a class="dropdown-item" href="./Fig3_Cloud.html">Cloudiness</a>
                 <a class="dropdown-item" href="./Fig4_Wind.html">Windspeed</a>
-                <a class="dropdown-item" href="./Plots.html">Hemispheres</a>
               </div>
             </li>
             <!-- Close dropdown Plots items -->
@@ -74,70 +73,86 @@
 </nav>
 <br>
 
-<!-- Grid Card here -->
-<div class="container-fluid">
-        <div class="col">
-            <div class="card body2">
-                          <!-- Card deck & body here -->
-            <div class="card-body">
-              <div class="card-deck">
-                
-                <!-- Fig1 & Fig2 row here -->
-                <div class="row">
-                                   
-                  <!-- Fig1 Card item -->
-                  <div class="col-md">
-                      <h5 class="card-title"><img src="https://img.icons8.com/ios-glyphs/25/000000/temperature--v1.png"/> Max Temperature</h5>
-                      <a href="./Fig1_Temp.html">
-                      <img src="./Resources/assets/images/Weather_Fig1.jpg" 
-                      class="img-fluid" style="width:350px;height: 350px;" alt="Latitude vs. Temperature" >
-                      </a>
-                      <div class="card-body"></div>
-                  </div>
-                  <!-- Fig2 Card item -->
-                  <div class="col-md">
-                      <h5 class="card-title"><img src="https://img.icons8.com/ios-glyphs/25/000000/moisture.png"/> Average Humidity</h5>
-                      <a href="./Fig2_Humid.html">
-                      <img src="./Resources/assets/images/Weather_Fig2.jpg" 
-                      class="img-fluid" style="width:350px;height: 350px;"  alt="Latitude vs. Humidity">
-                      </a>
-                      <div class="card-body"></div>
-                  </div>
-                </div>     
-                
-                <!-- Fig3 & Fig4 row here -->
-                <div class="row">
-  
-                  <!-- Fig3 Card item -->
-                  <div class="col-md">
-                    <h5 class="card-title"><img src="https://img.icons8.com/ios-glyphs/25/000000/fog-day--v1.png"/> Average Cloudiness</h5>
-                    <a href="./Fig3_Cloud.html">
-                    <img src="./Resources/assets/images/Weather_Fig3.jpg" 
-                    class="img-fluid" style="width:350px;height: 350px;"  alt="Latitude vs. Cloudiness">
-                    </a>
-                    <div class="card-body"></div>
-                  </div>
-                    
-                  <!-- Fig4 Card item -->
-                  <div class="col-md">
-                    <h5 class="card-title"><img src="https://img.icons8.com/ios-glyphs/25/000000/wind--v1.png"/> Average Windspeed</h5>
-                    <a href="./Fig4_Wind.html">
-                    <img src="./Resources/assets/images/Weather_Fig4.jpg" 
-                    class="img-fluid" style="width:350px;height: 350px;"  alt="Latitude vs. Windspeed">
-                    </a>
-                    <div class="card-body"></div>
-                  </div>
-                
-                </div>
+  <!-- Analysis Card here -->
+  <div class="container-fluid">
+    <div class="col">
+      <div class="card body2">
+          
+        <!-- Card deck & body here -->
+        <div class="card-body card-deck">
               
-              </div>
-              </div>
+          <!-- Fig1 & Fig2 row here -->
+          <div class="row">
+                                 
+            <!-- Fig1 Card item -->
+            <div class="col-md">
+                <h4 class="card-title"><img src="https://img.icons8.com/ios-glyphs/35/000000/fog-day--v1.png"/> Latitude vs. Cloudiness</h4>
+                <img src="./Resources/assets/images/Weather_Fig3.jpg" 
+                    class="img-fluid" style="width:500px;height: 500px;" alt="Latitude vs. Cloudiness">
+                </a>
+                <img src="./Resources/assets/images/Weather_Fig3q.jpg" 
+                    class="img-fluid" style="width:450px;height: 350px;" alt="Latitude vs. Cloudiness Outliers">
+                    </a>
+                <div class="card-body">
+                  <h5 class="card-title">Analysis</h5>
+                  <p class="card-text">This scatter plot takes a pole to pole view of Planet Earth. The X-axis represents the fraction of the sky obscured by clouds in cities around the world. Cloudiness percent is farely evenly distributed across latitudes and weighted toward the ends at 0% and 100%.
+                  </p>
+                </div>
             </div>
+          </div> 
         </div>
-        <div class="col">
-            
-        </div>
-</div>
+      </div>
+    </div>
+  </div>
+
+<!-- Figures row here -->
+<div class = "container-fluid">
+  <div class = "card-body col">
+    <div class = "row"> 
+  
+      <!-- Fig1 Card item -->
+      <div class="col-sm">
+          <h6 class="card-title">Temperature</h6>
+          <a href="./Fig1_Temp.html">
+          <img src="./Resources/assets/images/Weather_Fig1.jpg" 
+            class="img-fluid" style="width:150px;height: 150px;" alt="Latitude vs. Temperature" >
+          </a>
+          <div class="card-body"></div>
+      </div>
+
+      <!-- Fig2 Card item -->
+      <div class="col-sm">
+          <h6 class="card-title">Humidity</h6>
+          <a href="./Fig2_Humid.html">
+          <img src="./Resources/assets/images/Weather_Fig2.jpg" 
+            class="img-fluid" style="width:150px;height: 150px;"  alt="Latitude vs. Humidity">
+          </a>
+          <div class="card-body"></div>
+        </div>     
+              
+      <!-- Fig4 Card item -->
+      <div class="col-md">
+        <h6 class="card-title">Windspeed</h6>
+        <a href="./Fig4_Wind.html">
+        <img src="./Resources/assets/images/Weather_Fig4.jpg" 
+          class="img-fluid" style="width:150px;height: 150px;"  alt="Latitude vs. Windspeed">
+        </a>
+        <div class="card-body"></div>
+      </div>
+    
+      <!-- Hemispheres Card item -->
+      <div class="col-md">
+        <h6 class="card-title">Hemispheres</h6>
+        <a href="./Plots.html">
+        <img src="./Resources/assets/images/Weather_Fig5n.jpg" 
+          class="img-fluid" style="width:150px;height: 150px;"  alt="Hemispheres">
+        </a>
+        <div class="card-body"></div>
+      </div>
+
+    </div>
+  </div>
+  </div>
 
 </body>
 </html>
